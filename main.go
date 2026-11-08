@@ -54,7 +54,6 @@ func main() {
 	}
 	// 実行時に渡されたコマンドライン引数を読み取って、flag.String などで用意した変数へ反映する処理です。
 	flag.Parse()
-	fmt.Println(*title)
 
 	if *input == "" {
 		flag.Usage()
